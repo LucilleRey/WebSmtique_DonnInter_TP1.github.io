@@ -8,27 +8,27 @@
   <foaf:Person rdf:about="https://lucillerey.github.io/foaf.rdf">
     
     <!-- Nom complet -->
-    <foaf:name>Jean Dupont</foaf:name>
+    <foaf:name>Lucille REY</foaf:name>
     <!-- Titre -->
-    <foaf:title>Mr.</foaf:title>
+    <foaf:title>Mlle</foaf:title>
     <!-- Nom donné -->
-    <foaf:givenName>Jimmy</foaf:givenName>
+    <foaf:givenName>Lucille</foaf:givenName>
     <!-- Nom de famille -->
-    <foaf:familyName>Wales</foaf:familyName>
+    <foaf:familyName>REY</foaf:familyName>
     <!-- Adresse e-mail -->
-    <foaf:mbox rdf:resource="mailto:jWales@example.com"/>
+    <foaf:mbox rdf:resource="mailto:lucille.rey14@gamil.com"/>
     
     <!-- Page d'accueil (homepage) -->
     <foaf:homepage rdf:resource="https://lucillerey.github.io"/>
     
     <!-- Nom d'utilisateur -->
-    <foaf:nick>Jimbo</foaf:nick>
+    <foaf:nick>lrey</foaf:nick>
     
     <!-- Image du profil -->
     <foaf:img rdf:resource="https://lucillerey.github.io/images/photo.jpg"/>
 
     <!-- Une brève description -->
-    <foaf:title>Personnage fictif crée pour un tp à partir des données de wikipédia</foaf:title>
+    <foaf:title>Etudiante en M2 info.</foaf:title>
 
   </foaf:Person>
 
