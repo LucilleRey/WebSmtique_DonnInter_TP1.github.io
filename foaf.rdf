@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="foaf-to-xhtml.xsl"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
   <!-- Déclaration d'une personne -->
   <foaf:Person rdf:about="https://lucillerey.github.io/foaf.rdf">
-    
+
     <!-- Nom complet -->
     <foaf:name>Lucille REY</foaf:name>
     <!-- Titre -->
@@ -16,20 +16,31 @@
     <!-- Nom de famille -->
     <foaf:familyName>REY</foaf:familyName>
     <!-- Adresse e-mail -->
-    <foaf:mbox rdf:resource="mailto:lucille.rey14@gamil.com"/>
-    
+    <foaf:mbox rdf:resource="mailto:lucille.rey14@gamil.com" />
+
     <!-- Page d'accueil (homepage) -->
-    <foaf:homepage rdf:resource="https://lucillerey.github.io"/>
-    
+    <foaf:homepage rdf:resource="https://lucillerey.github.io" />
+
     <!-- Nom d'utilisateur -->
     <foaf:nick>lrey</foaf:nick>
-    
+
     <!-- Image du profil -->
-    <foaf:img rdf:resource="https://lucillerey.github.io/images/photo.jpg"/>
+    <foaf:img rdf:resource="https://lucillerey.github.io/images/photo.jpg" />
 
     <!-- Une brève description -->
     <foaf:title>Etudiante en M2 info.</foaf:title>
 
   </foaf:Person>
+
+  <foaf:knows>
+    <foaf:Person>
+      <foaf:name>Maxime MONBEIG</foaf:name>
+      <foaf:homepage rdf:resource="https://maxime-monbeig.github.io" />
+    </foaf:Person>
+    <foaf:Person>
+      <foaf:name>Aïnhoa LESNESTOUR</foaf:name>
+      <foaf:homepage rdf:resource="http://ainhoalntr.github.io/" />
+    </foaf:Person>
+  </foaf:knows>
 
 </rdf:RDF>

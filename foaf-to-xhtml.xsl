@@ -20,6 +20,19 @@
                 <p><strong>Nom d'utilisateur :</strong> <xsl:value-of select="//foaf:nick"/></p>
                 <p><strong>Image :</strong> <img src="{//foaf:img/@rdf:resource}" alt="Image de profil"/></p>
                 <p><strong>Description :</strong> <xsl:value-of select="//foaf:title"/></p>
+            
+                <h2>Connaissances</h2>
+                <ul>
+                    <xsl:for-each select="//foaf:knows/foaf:Person">
+                        <li>
+                            <xsl:value-of select="foaf:name"/> 
+                            <xsl:if test="foaf:homepage">
+                                (<xsl:value-of select="foaf:homepage/@rdf:resource"/>)
+                            </xsl:if>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            
             </body>
         </html>
     </xsl:template>
