@@ -41,6 +41,10 @@
       <foaf:name>Aïnhoa LESNESTOUR</foaf:name>
       <foaf:homepage rdf:resource="http://ainhoalntr.github.io/" />
     </foaf:Person>
+    <foaf:Person>
+      <foaf:name>Antoine SUEUR</foaf:name>
+      <foaf:homepage rdf:resource="http://antoinesueurdev.github.io/" />
+    </foaf:Person>
   </foaf:knows>
 
 </rdf:RDF>

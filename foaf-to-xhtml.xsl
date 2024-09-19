@@ -27,7 +27,7 @@
                         <li>
                             <xsl:value-of select="foaf:name"/> 
                             <xsl:if test="foaf:homepage">
-                                (<xsl:value-of select="foaf:homepage/@rdf:resource"/>)
+                                <a href="{foaf:homepage/@rdf:resource}"><xsl:value-of select="foaf:homepage/@rdf:resource"/></a>
                             </xsl:if>
                         </li>
                     </xsl:for-each>
