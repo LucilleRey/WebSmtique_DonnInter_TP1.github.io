@@ -5,7 +5,7 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
   <!-- Déclaration d'une personne -->
-  <foaf:Person rdf:about="http://www.jimmywales.com/foaf.rdf">
+  <foaf:Person rdf:about="https://lucillerey.github.io/foaf.rdf">
     
     <!-- Nom complet -->
     <foaf:name>Jean Dupont</foaf:name>
@@ -19,13 +19,13 @@
     <foaf:mbox rdf:resource="mailto:jWales@example.com"/>
     
     <!-- Page d'accueil (homepage) -->
-    <foaf:homepage rdf:resource="http://www.jimmywales.com/"/>
+    <foaf:homepage rdf:resource="https://lucillerey.github.io"/>
     
     <!-- Nom d'utilisateur -->
     <foaf:nick>Jimbo</foaf:nick>
     
     <!-- Image du profil -->
-    <foaf:img rdf:resource="http://www.jimmywales.com/images/photo.jpg"/>
+    <foaf:img rdf:resource="https://lucillerey.github.io/images/photo.jpg"/>
 
     <!-- Une brève description -->
     <foaf:title>Personnage fictif crée pour un tp à partir des données de wikipédia</foaf:title>
